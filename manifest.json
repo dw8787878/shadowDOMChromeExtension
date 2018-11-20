@@ -1,0 +1,18 @@
+{
+    "name": "Shadow DOM XPath Finder",
+    "version": "0.01",
+    "description": "Finds XPath for Element in a Shadow DOM",
+    "manifest_version": 2,
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "contextMenus"
+    ],
+    "icons": { 
+        "48": "icons8-accuracy-48.png"
+    }
+}
+
+
