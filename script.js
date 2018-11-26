@@ -1,3 +1,5 @@
+/*
+
 browser.contextMenus.create({
     id: "log-selection",
     title: browser.i18n.getMessage("contextMenuItemSelectionLogger"),
@@ -11,3 +13,9 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
         break;
     }
   })
+
+  */
+
+chrome.contextMenus.create({
+  title: "Shadow DOM - Get XPath"
+})
