@@ -1,12 +1,13 @@
 {
+    "app": {
+        "background" : {
+            "scripts" : ["script.js"]
+        }
+    },
     "name": "Shadow DOM XPath Finder",
     "version": "0.01",
     "description": "Finds XPath for Element in a Shadow DOM",
     "manifest_version": 2,
-
-    "background": {
-        "scripts": ["script.js"]
-    },
     "permissions": [
         "contextMenus"
     ],

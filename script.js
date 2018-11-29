@@ -16,6 +16,17 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
 
   */
 
+function main(){
+  // monitorEvents(document.body, "click");
+  // let clickEvents = getEventListeners(document);
+  // console.log("this is clickEvents:", clickEvents);
+  alert("hello");
+}
+
 chrome.contextMenus.create({
-  title: "Shadow DOM - Get XPath"
+  title: "Shadow DOM - Get XPath",
+  contexts: ["all"],
+  onclick : main
 })
+
+//chrome.contextMenus.onClicked.addListener()
